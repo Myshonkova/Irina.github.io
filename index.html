@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт Ирины</title>
-</head>
+    <link rel="stylesheet" href="./style.css">
 <body>
     <header id="header">
-    <h1>
-        <a href="./index.html">Сайт Ирины</a></h1>
+    <h1>Главная</h1>
     <nav>
-        <ul>
-        <li><a href="./blog.html">
-            Блог
-        </a></li>
-        <li>Проекты</li>
-        <li>Доклады</li>
-        <li>Резюме</li>
+        <ul class="navigation">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./blog.html">Блог</a></li>
+            <li><a href="./projects.html">Проекты</a></li>
+            <li><a href="./presentations.html">Доклады</a></li>
+            <li><a href="./resume.html">Резюме</a></li>
         </ul>
     </nav>
     </header>
 
-<main id="content">
-    Краткая информация о себе
-<section>
-    Блок контент
-    <img src="./img/myphoto.jpg" alt="">
-</section>
+<main class="container">
+    <section>
+        <h2>Краткая информация о себе</h2>
+        <img width="200" height="200" src="./img/myphoto.jpg" alt="">
+        <p>Ирина, 18 лет, 25м от вас</p>
+    </section>
 </main>
-<aside id="aside">Боковой блок</aside>
-<footer id="footer">Подвал</footer>
-    <a href="https://github.com/Myshonkova"></a>
+
+<aside class="aside_block">
+    <section>
+        <h2>Боковой блок</h2>
+        <p>Темнеющее небо окрасилось в багряные тона, предвещая скорый закат. Улицы города постепенно пустели, лишь изредка слышался смех прохожих. Фонари зажглись, отбрасывая длинные тени. Где-то в кафе играла тихая музыка, а аромат кофе смешивался с вечерней прохладой.</p>
+    </section>
+</aside>
+
+<footer class="footer_block">
+    <p>Следите за новостями</p>
+    <li><a href="https://github.com/Myshonkova">Гитхаб</a></li>
+    <li><a href="https://vk.com/id868972786">Вконтакте</a></li>
+    <li><a href="https://t.me/mondexz">Телеграмм</a></li>
+</footer>
 
 </body>
+</head>
 </html>

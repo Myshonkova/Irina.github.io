@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+a:visited {
+    color: gray;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.navigation {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.aside_block {
+    justify-content: end;
+}
+
+.footer_block {
+    list-style-type: none;
+}
+
